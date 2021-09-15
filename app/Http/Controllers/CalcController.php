@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CalcController extends Controller
 {
-        public function result($num1 , $operator , $num2)
+    public function result($num1 , $operator , $num2)
     {
         $result = '';
 
