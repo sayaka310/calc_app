@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\ItemController@index');
+Route::get('/', 'App\Http\Controllers\CalcController@result');
 
 Route::get('/calcs/{num1}/{operator}/{num2}', [
     App\Http\Controllers\CalcController::class,'result'
