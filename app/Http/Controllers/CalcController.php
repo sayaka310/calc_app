@@ -21,6 +21,7 @@ class CalcController extends Controller
 
         } elseif ($operator == 'division' ) {
             $result = $num1 / $num2;
+
         } else {
             $result ='正しい演算子を指定して下さい';
         } 
