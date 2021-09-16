@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'result';
+    return '<h1>計算アプリ</h1>';
 });
 
 Route::get('/calcs/{num1}/{operator}/{num2}', [
